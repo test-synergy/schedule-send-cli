@@ -93,11 +93,7 @@ Two files are needed, both from the [**v0.6.6** release](https://github.com/test
 
 Download the add-on: [**schedule-send-cli-0.6.6.xpi**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/schedule-send-cli-0.6.6.xpi) — the same file lives in the repository: [`dist/schedule-send-cli-0.6.6.xpi`](https://github.com/test-synergy/schedule-send-cli/blob/main/dist/schedule-send-cli-0.6.6.xpi).
 
-1. Open the add-on installer:
-
-   - English interface: `Tools → Add-ons and Themes → gear (⚙) → Install Add-on From File…`
-   - Russian interface: `Инструменты → Дополнения и темы → шестерёнка (⚙) → Установить дополнение из файла…`
-
+1. Open the add-on installer: `Tools → Add-ons and Themes → gear (⚙) → Install Add-on From File…` **or** `Инструменты → Дополнения и темы → шестерёнка (⚙) → Установить дополнение из файла…`
 2. Select the downloaded `schedule-send-cli-0.6.6.xpi`.
 3. Restart Thunderbird.
 
