@@ -1,0 +1,4 @@
+email,subject,body,attachment
+client-a@example.com,Отчёт за октябрь,"Добрый день! Отчёт за октябрь во вложении.",C:\Reports\october-2026.pdf
+client-b@example.com,Отчёт за октябрь,"Добрый день! Отчёт за октябрь во вложении.",C:\Reports\october-2026.pdf
+client-c@example.com,Напоминание о встрече,"Напоминаем: встреча в понедельник в 10:00.",
