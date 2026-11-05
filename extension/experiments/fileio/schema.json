@@ -1,0 +1,211 @@
+[
+  {
+    "namespace": "fileio",
+    "description": "Read files and list directories from the local filesystem",
+    "functions": [
+      {
+        "name": "listDir",
+        "type": "function",
+        "description": "List files in a directory (non-recursive). Returns names only.",
+        "async": true,
+        "parameters": [
+          {
+            "name": "path",
+            "type": "string",
+            "description": "Absolute path to directory"
+          }
+        ]
+      },
+      {
+        "name": "readFileBase64",
+        "type": "function",
+        "description": "Read a file and return base64 content + file name",
+        "async": true,
+        "parameters": [
+          {
+            "name": "path",
+            "type": "string",
+            "description": "Absolute path to file"
+          }
+        ]
+      },
+      {
+        "name": "moveFile",
+        "type": "function",
+        "description": "Move/rename a file",
+        "async": true,
+        "parameters": [
+          {
+            "name": "fromPath",
+            "type": "string"
+          },
+          {
+            "name": "toPath",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "writeTextFile",
+        "type": "function",
+        "description": "Write UTF-8 text to a file (overwrite)",
+        "async": true,
+        "parameters": [
+          {
+            "name": "path",
+            "type": "string"
+          },
+          {
+            "name": "content",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "ensureDir",
+        "type": "function",
+        "description": "Create directory if it does not exist",
+        "async": true,
+        "parameters": [
+          {
+            "name": "path",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "name": "createDraftFromMime",
+        "type": "function",
+        "description": "Create a draft message from raw MIME content without UI",
+        "async": true,
+        "parameters": [
+          {
+            "name": "accountKey",
+            "type": "string",
+            "optional": true,
+            "description": "Account key"
+          },
+          {
+            "name": "mimeContent",
+            "type": "string",
+            "description": "MIME text"
+          },
+          {
+            "name": "draftsUri",
+            "type": "string",
+            "optional": true,
+            "description": "Optional drafts folder URI"
+          }
+        ]
+      },
+      {
+        "name": "sendMimeMessage",
+        "type": "function",
+        "description": "Silently send a message from raw MIME (no compose window)",
+        "async": true,
+        "parameters": [
+          {
+            "name": "accountKey",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "identityEmail",
+            "type": "string",
+            "optional": true,
+            "description": "Match identity by email"
+          },
+          {
+            "name": "mimeContent",
+            "type": "string",
+            "description": "Full MIME message"
+          },
+          {
+            "name": "to",
+            "type": "string"
+          },
+          {
+            "name": "subject",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "cc",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "bcc",
+            "type": "string",
+            "optional": true
+          }
+        ]
+      },
+      {
+        "name": "sendJob",
+        "type": "function",
+        "description": "Silently send email with body and file attachments (no compose window)",
+        "async": true,
+        "parameters": [
+          {
+            "name": "identityEmail",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "accountKey",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "to",
+            "type": "string"
+          },
+          {
+            "name": "subject",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "cc",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "bcc",
+            "type": "string",
+            "optional": true
+          },
+          {
+            "name": "files",
+            "type": "array",
+            "optional": true,
+            "items": {
+              "type": "string"
+            },
+            "description": "Absolute paths to attachments"
+          }
+        ]
+      },
+      {
+        "name": "hideComposeWindows",
+        "type": "function",
+        "description": "Move/hide all open compose windows off-screen",
+        "async": true,
+        "parameters": []
+      },
+      {
+        "name": "readAppConfig",
+        "type": "function",
+        "description": "Read %APPDATA%/schedule-send-cli/config.json written by send_job.py",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]

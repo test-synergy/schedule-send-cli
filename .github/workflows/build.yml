@@ -1,0 +1,23 @@
+name: build-xpi
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Собрать .xpi из исходников
+        run: |
+          cd extension
+          zip -r ../schedule-send-cli.xpi . -x "*.DS_Store"
+
+      - name: Приложить артефакт
+        uses: actions/upload-artifact@v4
+        with:
+          name: schedule-send-cli
+          path: schedule-send-cli.xpi

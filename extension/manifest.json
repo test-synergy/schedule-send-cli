@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "Schedule Send CLI",
+  "version": "0.6.6",
+  "description": "Queue emails from CLI and send them at a scheduled time (no Send Later required).",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "schedule-send-cli@local",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": [
+    "compose",
+    "compose.save",
+    "compose.send",
+    "accountsRead",
+    "messagesRead",
+    "messagesMove",
+    "messagesDelete",
+    "messagesImport",
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "experiment_apis": {
+    "fileio": {
+      "schema": "experiments/fileio/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["fileio"]],
+        "script": "experiments/fileio/api.js"
+      }
+    }
+  }
+}

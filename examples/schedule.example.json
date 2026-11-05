@@ -1,0 +1,18 @@
+[
+  {
+    "to": "client-a@example.com, client-b@example.com",
+    "cc": "manager@example.com",
+    "subject": "Отчёт за октябрь",
+    "body": "Добрый день!\n\nОтчёт за октябрь во вложении.\n\nС уважением,\nОтдел аналитики",
+    "files": ["C:\\Reports\\october-2026.pdf"],
+    "datetime": "2026-11-01 09:00",
+    "from": "me@company.ru"
+  },
+  {
+    "to": "client-c@example.com",
+    "subject": "Напоминание",
+    "body": "Напоминаем о встрече в понедельник.",
+    "datetime": "2026-11-01 10:30",
+    "from": "me@company.ru"
+  }
+]
