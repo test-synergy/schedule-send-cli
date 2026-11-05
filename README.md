@@ -8,6 +8,12 @@
   Отложенная отправка писем из Thunderbird — массово, из командной строки.
 </p>
 
+<p align="center">
+  <a href="https://github.com/test-synergy/schedule-send-cli">Репозиторий</a> ·
+  <a href="https://github.com/test-synergy/schedule-send-cli/releases/latest">Скачать .xpi</a> ·
+  <a href="https://github.com/test-synergy/schedule-send-cli/tree/main/dist">dist/</a>
+</p>
+
 ## Содержание
 
 - [Зачем это нужно](#зачем-это-нужно)
@@ -74,8 +80,10 @@ send_job.py add  ──►  queue/<id>.json  ──►  Schedule Send CLI (оп�
 
 ### 1. Schedule Send CLI
 
+Скачайте установочный файл: [**schedule-send-cli-0.6.6.xpi**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/schedule-send-cli-0.6.6.xpi) — тот же файл лежит в репозитории: [`dist/schedule-send-cli-0.6.6.xpi`](https://github.com/test-synergy/schedule-send-cli/blob/main/dist/schedule-send-cli-0.6.6.xpi).
+
 1. `Tools → Add-ons and Themes → шестерёнка → Install Add-on From File…`
-2. Выберите `dist/schedule-send-cli-0.6.6.xpi`.
+2. Выберите скачанный `schedule-send-cli-0.6.6.xpi`.
 3. Перезапустите Thunderbird.
 
 Schedule Send CLI не подписан Mozilla, поэтому при установке из файла нужен профиль, разрешающий неподписанные дополнения (или загрузка через `about:debugging` как временного дополнения — но тогда Schedule Send CLI исчезнет после перезапуска).
