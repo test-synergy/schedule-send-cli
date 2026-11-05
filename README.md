@@ -83,7 +83,11 @@ send_job.py add  ──►  queue/<id>.json  ──►  Schedule Send CLI (оп�
 
 Скачайте установочный файл: [**schedule-send-cli-0.6.6.xpi**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/schedule-send-cli-0.6.6.xpi) — тот же файл лежит в репозитории: [`dist/schedule-send-cli-0.6.6.xpi`](https://github.com/test-synergy/schedule-send-cli/blob/main/dist/schedule-send-cli-0.6.6.xpi).
 
-1. `Tools → Add-ons and Themes → шестерёнка → Install Add-on From File…`
+1. Откройте установку дополнения:
+
+   - английский интерфейс: `Tools → Add-ons and Themes → шестерёнка (⚙) → Install Add-on From File…`
+   - русский интерфейс: `Инструменты → Дополнения и темы → шестерёнка (⚙) → Установить дополнение из файла…`
+
 2. Выберите скачанный `schedule-send-cli-0.6.6.xpi`.
 3. Перезапустите Thunderbird.
 
