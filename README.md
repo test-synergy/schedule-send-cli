@@ -95,7 +95,9 @@ Schedule Send CLI не подписан Mozilla, поэтому при уста�
 
 ### 2. Скрипт `send_job.py`
 
-Скопируйте `send_job.py` в любую постоянную папку — она же станет корнем очереди:
+Скачайте скрипт из релиза: [**send_job.py**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/send_job.py) — он же лежит в репозитории: [`send_job.py`](https://github.com/test-synergy/schedule-send-cli/blob/main/send_job.py).
+
+Скопируйте его в любую постоянную папку — она же станет корнем очереди:
 
 ```
 C:\Users\<вы>\Documents\schedule-send\
