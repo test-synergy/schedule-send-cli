@@ -38,8 +38,6 @@
 
 ## Why this exists
 
-CLI stands for Command Line Interface: Schedule Send CLI is controlled by text commands in `cmd` or PowerShell, with no buttons and no windows.
-
 Thunderbird cannot send a message later — it has no such feature. A message is either sent immediately or stays in Drafts until someone sends it by hand.
 
 Schedule Send CLI adds that feature. A job is a single command: recipients, subject, body, attachments, date and time. Thunderbird performs the actual send at the appointed moment.
