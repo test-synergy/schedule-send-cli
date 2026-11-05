@@ -9,6 +9,11 @@
 </p>
 
 <p align="center">
+  <strong>Русский</strong> ·
+  <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/test-synergy/schedule-send-cli">Репозиторий</a> ·
   <a href="https://github.com/test-synergy/schedule-send-cli/releases/latest">Скачать .xpi</a> ·
   <a href="https://github.com/test-synergy/schedule-send-cli/tree/main/dist">dist/</a>
