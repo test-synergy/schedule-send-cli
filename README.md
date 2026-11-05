@@ -84,6 +84,11 @@ send_job.py add  ──►  queue/<id>.json  ──►  Schedule Send CLI (оп�
 
 ## Установка
 
+Для установки нужны два файла из релиза [**v0.6.6**](https://github.com/test-synergy/schedule-send-cli/releases/tag/v0.6.6):
+
+- [**schedule-send-cli-0.6.6.xpi**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/schedule-send-cli-0.6.6.xpi) — Schedule Send CLI для Thunderbird;
+- [**send_job.py**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/send_job.py) — скрипт постановки заданий в очередь.
+
 ### 1. Schedule Send CLI
 
 Скачайте установочный файл: [**schedule-send-cli-0.6.6.xpi**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/schedule-send-cli-0.6.6.xpi) — тот же файл лежит в репозитории: [`dist/schedule-send-cli-0.6.6.xpi`](https://github.com/test-synergy/schedule-send-cli/blob/main/dist/schedule-send-cli-0.6.6.xpi).

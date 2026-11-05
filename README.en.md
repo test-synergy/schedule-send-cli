@@ -84,6 +84,11 @@ The script and Schedule Send CLI talk to each other through files only. No socke
 
 ## Installation
 
+Two files are needed, both from the [**v0.6.6** release](https://github.com/test-synergy/schedule-send-cli/releases/tag/v0.6.6):
+
+- [**schedule-send-cli-0.6.6.xpi**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/schedule-send-cli-0.6.6.xpi) — Schedule Send CLI for Thunderbird;
+- [**send_job.py**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/send_job.py) — the script that queues jobs.
+
 ### 1. Schedule Send CLI
 
 Download the add-on: [**schedule-send-cli-0.6.6.xpi**](https://github.com/test-synergy/schedule-send-cli/releases/download/v0.6.6/schedule-send-cli-0.6.6.xpi) — the same file lives in the repository: [`dist/schedule-send-cli-0.6.6.xpi`](https://github.com/test-synergy/schedule-send-cli/blob/main/dist/schedule-send-cli-0.6.6.xpi).
